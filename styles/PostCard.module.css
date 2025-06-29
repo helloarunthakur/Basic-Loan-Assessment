@@ -1,0 +1,14 @@
+.card {
+  display: block;
+  padding: 1rem;
+  background: #111;
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.2s ease, background 0.2s;
+}
+
+.card:hover {
+  background-color: #222;
+  transform: scale(1.05);
+}
